@@ -5,7 +5,7 @@ title: Project
 <div class="page">
   <header class="page-header">
     <h1>About the project</h1>
-    <p>An open hardware attempt at a 20&nbsp;GHz vector network analyzer.</p>
+    <p>An attempt at a 20&nbsp;GHz vector network analyzer.</p>
   </header>
 
   <div class="page-body">
@@ -37,7 +37,7 @@ title: Project
       <li><strong>Photos</strong> — build pictures from the workbench</li>
       <li><strong>Measurement data</strong> — S-parameter plots together with the raw <strong>CSV files</strong>,
         so anyone can re-plot or analyse the numbers themselves</li>
-      <li><strong>Design files</strong> — schematics and firmware source as they become available</li>
+      <li><strong>Build notes</strong> — documentation of design decisions and experiments as they happen</li>
     </ul>
 
     <h2 id="updates">Updates policy</h2>
@@ -47,11 +47,16 @@ title: Project
       New measurements and files will appear in the <a href="{{ '/blog' | relative_url }}">Updates</a> section.
     </p>
 
-    <h2>Source and contact</h2>
+    <h2>Source</h2>
     <p>
-      The repository for this site (and eventually the project's design files) lives on GitHub:
+      The repository for this site lives on GitHub:
       <a href="https://github.com/patryksi11/20ghz-vna-blog" target="_blank" rel="noopener">patryksi11/20ghz-vna-blog</a>.
-      Discussion happens on Reddit — drop a comment or a message with questions, ideas or criticism.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Comment on the Reddit thread, or reach out via the <a href="{{ '/contact' | relative_url }}">Contact</a> page —
+      questions, ideas and criticism are welcome.
     </p>
   </div>
 </div>

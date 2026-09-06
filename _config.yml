@@ -1,6 +1,6 @@
 title: 20 GHz VNA Project
 description: >-
-  An open-source vector network analyzer (VNA) project targeting 20 GHz.
+  A home-built vector network analyzer (VNA) project targeting 20 GHz.
   Build notes, measurements, photos and downloadable raw data files.
 author: patryksi11
 baseurl: "/20ghz-vna-blog"
