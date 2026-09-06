@@ -5,7 +5,7 @@ title: Updates
 <div class="page">
   <header class="page-header">
     <h1>Updates</h1>
-    <p>All progress posts, photos and downloadable measurement data.</p>
+    <p>All progress posts, photos and measurement data.</p>
   </header>
 
   <ul class="post-list">

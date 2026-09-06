@@ -12,30 +12,21 @@ title: Project
 
     <h2>The idea</h2>
     <p>
-      A vector network analyzer is an instrument that measures how much of a microwave signal is
-      reflected from a device (return loss / S11) and how much passes through it (insertion loss / S21),
-      including the phase relationships. Commercial units covering tens of gigahertz cost a small fortune.
-      This project is an attempt to build a usable VNA that reaches up to 20&nbsp;GHz on a reasonable hobby budget,
-      and to document every step so others can build on the work.
+      A Vector Network Analyzer (VNA) is an instrument that measures the complex S-parameters of RF/microwave devices over a range of frequencies. It shows both magnitude and phase, allowing you to characterize reflection, transmission, impedance, return loss, insertion loss, and VSWR. Commercial units covering tens of gigahertz cost a small fortune.
+      This project is an attempt to build a usable VNA that reaches up to 20&nbsp;GHz on a reasonable hobby budget, and to document every step so others can build on the work.
     </p>
 
     <h2>Current status</h2>
     <p>
       The project is at an early stage and there is no finished product yet — this is part of the journey.
-      Hardware is being designed and breadboard prototypes tested, one block at a time:
     </p>
-    <ul>
-      <li>Signal source and broadband generation up to 20&nbsp;GHz</li>
-      <li>Directional couplers / bridges for reflection measurements</li>
-      <li>Down-conversion and sampling architecture</li>
-      <li>Calibration routines (SOLT-style) and user software</li>
-    </ul>
+    
 
     <h2>What will be published here</h2>
     <ul>
       <li><strong>Progress updates</strong> — short posts describing what was done, tested and learned</li>
       <li><strong>Photos</strong> — build pictures from the workbench</li>
-      <li><strong>Measurement data</strong> — S-parameter plots together with the raw <strong>CSV files</strong>,
+      <li><strong>Measurement data</strong> — S-parameter plots together with the raw files
         so anyone can re-plot or analyse the numbers themselves</li>
       <li><strong>Build notes</strong> — documentation of design decisions and experiments as they happen</li>
     </ul>

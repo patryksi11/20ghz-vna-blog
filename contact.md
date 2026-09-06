@@ -11,13 +11,13 @@ title: Contact
   <div class="page-body">
     <h2>Email</h2>
     <p>
-      <a href="mailto:your.email@example.com">your.email@example.com</a>
+      <a href="mailto:20ghzvnaproject@wp.pl">20ghzvnaproject@wp.pl</a>
     </p>
 
     <h2>Elsewhere</h2>
     <ul>
       <li><strong>GitHub</strong> — <a href="https://github.com/patryksi11" target="_blank" rel="noopener">patryksi11</a></li>
-      <li><strong>Reddit</strong> — <a href="https://www.reddit.com" target="_blank" rel="noopener">link to your Reddit thread or profile</a></li>
+      <li><strong>Reddit</strong> — <a href="https://www.reddit.com/user/3D_printing_freak/" target="_blank" rel="noopener">link to your Reddit thread or profile</a></li>
     </ul>
 
     <p>Replace the placeholders above with your actual contact details.</p>
