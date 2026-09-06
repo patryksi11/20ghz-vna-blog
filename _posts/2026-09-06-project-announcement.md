@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Project announcement: building toward a 20 GHz VNA"
+date: 2026-09-06
+excerpt_intro: "Why this project exists, where it stands, and what will be posted here as the work progresses."
+---
+
+I'm starting an open hardware project to build a vector network analyzer that reaches up to 20 GHz. This post is the first entry on this site and explains where things stand and what to expect here.
+
+## Why
+
+VNA measurements (S-parameters — reflection and transmission versus frequency) are the bread and butter of microwave work. Affordable instruments that go into the tens of gigahertz are rare, and lab gear is out of reach for most hobby budgets. The goal is to put together a design that works at 20 GHz, document it openly, and share real measurement data — including raw numbers, not just pretty plots.
+
+## Where things stand
+
+Still very early. The work is happening block by block: signal source, directional couplers, down-conversion and the sampling/measurement chain. Nothing is finished yet, and a fair share of what follows will probably be failed experiments before things work.
+
+## What will appear on this site
+
+- Short progress updates as the build moves forward
+- Photos from the bench
+- Measurement results — plots backed up by **downloadable CSV files** with the raw data, so anyone can re-plot them
+- Schematics and firmware once they're presentable
+
+This site will be updated as the project develops. If it's quiet for a while, the bench work is taking longer than the writing.
+
+For now there's nothing to download yet — the first data files will be added together with the first real measurements.
+
+If you're interested in microwave hardware, S-parameters or homebuilt test equipment, stick around. Comments, questions and criticism are welcome.

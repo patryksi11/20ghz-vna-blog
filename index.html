@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<section class="hero">
+  <span class="hero-badge">Work in progress</span>
+  <h1>A 20 GHz vector network analyzer</h1>
+  <p class="lead">Build notes, schematics, photos and raw measurement data from an open hardware VNA project — published as the build goes on.</p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="{{ '/about' | relative_url }}">About the project</a>
+    <a class="btn btn-ghost" href="{{ '/blog' | relative_url }}">Latest updates</a>
+  </div>
+</section>
+
+<section class="container notice">
+  <span class="notice-icon">🛠️</span>
+  <div>
+    <h3>This site will be updated</h3>
+    <p>The project is under active development. This page will be updated with new measurements, photos and downloadable data files as things progress — check the <a href="{{ '/blog' | relative_url }}">Updates</a> section or watch the repository.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Project at a glance</h2>
+  <div class="facts">
+    <div class="card">
+      <div class="card-icon">📶</div>
+      <h4>Frequency range</h4>
+      <p>Measurements targeted well into the microwave band, aiming towards 20&nbsp;GHz.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">📊</div>
+      <h4>Raw data included</h4>
+      <p>Measurement plots come with downloadable CSV files so you can analyse the data yourself.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🔌</div>
+      <h4>Open hardware</h4>
+      <p>Schematics, firmware and build details are shared openly as they are developed.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🧪</div>
+      <h4>Hands-on lab notes</h4>
+      <p>Real measurements, photos and lessons learned from the bench — not simulations.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Latest updates</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit: 5 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+        <span class="title">{{ post.title }}</span>
+      </a>
+      <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  <p><a class="btn btn-ghost" href="{{ '/blog' | relative_url }}">View all updates</a></p>
+</section>
